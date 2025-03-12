@@ -4,4 +4,5 @@ This repository contains code and materials supporting research on how sectoral 
 # Cara Install Virtual Environment di Komputer Usyd
 1. Download repo ini.
 2. Install python via website : https://www.python.org/downloads/windows/
-3. Klik 2 kali `setup_env.bat`.
+3. Buka command prompt dengan mengetik 'cmd' di windows explorer.
+4. ketik `setup_env.bat`, kemudian klik `Enter`.
