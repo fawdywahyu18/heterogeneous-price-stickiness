@@ -50,7 +50,7 @@ def generate_bibtex_key(entry):
         year = entry.fields.get('year', '0000')
 
         # Buat kunci BibTeX
-        bibtex_key = f"{first_author}{year}"
+        bibtex_key = f"{first_author.lower()}{year}"
         return re.sub(r'[^a-zA-Z0-9]', '', bibtex_key)  # Hapus karakter tidak valid
     except Exception as e:
         print(f"Error generating key: {e}")
